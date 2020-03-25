@@ -20,3 +20,9 @@ Directory -> `/root`
 
 ```
 # cp /root/nginx-webapp/nginx-localhost.conf /etc/nginx/nginx.conf 
+```
+
+4. Copy the html content.
+
+```
+# cp /root
