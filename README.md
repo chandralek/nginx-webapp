@@ -14,3 +14,6 @@ Following settings needs to be used while cloning.
 
 User -> `root`
 
+Directory -> `/root`
+
+3. 
