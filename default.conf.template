@@ -23,7 +23,7 @@ server {
 
 
     location /api/catalogue/ {
-        proxy_pass http://${CATALOGUE_HOST}:8080/;
+        proxy_pass http://localhost:/;
     }
 
     location /api/user/ {
