@@ -43,7 +43,7 @@ server {
     }
 
     location /api/ratings/ {
-        proxy_pass http://${RATINGS_HOST}:80/;
+        proxy_pass http://localhost:7004/;
     }
 
     location /nginx_status {
