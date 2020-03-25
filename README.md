@@ -25,4 +25,5 @@ Directory -> `/root`
 4. Copy the html content.
 
 ```
-# cp /root/nginx-webapp/static 
+# rm -rf /usr/share/nginx/html
+# cp -r /root/nginx-webapp/static 
