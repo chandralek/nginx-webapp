@@ -39,7 +39,7 @@ server {
     }
 
     location /api/payment/ {
-        proxy_pass http://${PAYMENT_HOST}:8080/;
+        proxy_pass http://localhost:7002/;
     }
 
     location /api/ratings/ {
