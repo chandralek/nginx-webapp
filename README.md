@@ -19,3 +19,4 @@ Directory -> `/root`
 3. Copy the config.
 
 ```
+# cp /root/
