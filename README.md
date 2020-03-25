@@ -19,4 +19,4 @@ Directory -> `/root`
 3. Copy the config.
 
 ```
-# cp /root/
+# cp /root/nginx-web/
