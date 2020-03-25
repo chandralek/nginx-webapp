@@ -25,4 +25,4 @@ Directory -> `/root`
 4. Copy the html content.
 
 ```
-# cp /root
+# cp /root/nginx-webapp/
