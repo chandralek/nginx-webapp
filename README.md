@@ -16,4 +16,6 @@ User -> `root`
 
 Directory -> `/root`
 
-3. 
+3. Copy the config.
+
+```
