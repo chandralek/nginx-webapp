@@ -31,7 +31,7 @@ server {
     }
 
     location /api/cart/ {
-        proxy_pass http://${CART_HOST}:8080/;
+        proxy_pass http:///;
     }
 
     location /api/shipping/ {
