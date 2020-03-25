@@ -6,4 +6,5 @@
 # yum install nginx -y 
 ```
 
-2. 
+2. Clone the repository 
+
