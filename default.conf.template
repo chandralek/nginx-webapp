@@ -35,7 +35,7 @@ server {
     }
 
     location /api/shipping/ {
-        proxy_pass http://${SHIPPING_HOST}:8080/;
+        proxy_pass http://localhost:7005/;
     }
 
     location /api/payment/ {
