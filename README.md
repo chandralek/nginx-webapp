@@ -8,3 +8,6 @@
 
 2. Clone the repository 
 
+**Use Git Clone** 
+
+Following 
