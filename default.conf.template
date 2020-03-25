@@ -31,7 +31,7 @@ server {
     }
 
     location /api/cart/ {
-        proxy_pass http:///;
+        proxy_pass http://localhost:7000/;
     }
 
     location /api/shipping/ {
