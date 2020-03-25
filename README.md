@@ -26,4 +26,8 @@ Directory -> `/root`
 
 ```
 # rm -rf /usr/share/nginx/html
-# cp -r /root/nginx-webapp/static 
+# cp -r /root/nginx-webapp/static /usr/share/nginx/html
+```
+
+5. Start the service
+
