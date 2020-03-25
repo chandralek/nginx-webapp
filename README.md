@@ -10,4 +10,7 @@
 
 **Use Git Clone** 
 
-Following 
+Following settings needs to be used while cloning.
+
+User -> `root`
+
