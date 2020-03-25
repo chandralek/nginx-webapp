@@ -31,3 +31,6 @@ Directory -> `/root`
 
 5. Start the service
 
+```
+# systemctl enable nginx 
+#
