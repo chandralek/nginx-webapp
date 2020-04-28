@@ -33,4 +33,5 @@ Directory -> `/root`
 
 ```
 # systemctl enable nginx 
-#
+# systemctl start nginx 
+```
