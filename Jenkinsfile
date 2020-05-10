@@ -19,7 +19,7 @@ pipeline {
     stage('Upload to Nexus'){
       steps{
         sh '''
-     curl -f -v -u $NEXUS --upload-file frontend-service-${MAJOR_VERSION}-${BUILD_NUMBER}.tgz https://nexus.devops46.online/repository/frontend-service/frontend-service-${MAJOR_VERSION}-${BUILD_NUMBER}.tgz
+     curl -f -v -u $NEXUS --upload-file static/frontend-service-${MAJOR_VERSION}-${BUILD_NUMBER}.tgz https://nexus.devops46.online/repository/frontend-service/frontend-service-${MAJOR_VERSION}-${BUILD_NUMBER}.tgz
       '''
       }
     }
