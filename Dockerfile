@@ -6,3 +6,4 @@ COPY   nginx-kube.conf  /tmp
 COPY    run.sh /
 RUN    chmod +x run.sh
 CMD    sh run.sh
+EXPOSE    80
